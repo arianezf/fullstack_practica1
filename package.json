@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist package-lock.json node_modules",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html -d build --public-url /fullstack_practica1/",
+    "build": "parcel build src/index.html -d build --public-url /fullstack_practica1",
     "deploy": "gh-pages -d build"
   },
   "repository": {
