@@ -1,0 +1,31 @@
+{
+  "name": "practica1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist package-lock.json node_modules",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html -d build --public-url /fullstack_practica1/",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianezf/fullstack_practica1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianezf/fullstack_practica1/issues"
+  },
+  "homepage": "https://github.com/arianezf/fullstack_practica1#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  }
+}
