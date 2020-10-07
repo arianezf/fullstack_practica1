@@ -1,0 +1,2 @@
+body{flex-direction:column}#dado,body{display:flex;justify-content:center;align-items:center}#dado{width:100px;height:100px;background-color:#f5f5f5;border-radius:10px 10px 10px 10px;border:1px solid grey}#resultado{font-size:50px}#historial{width:200px;height:500px;border-radius:10px 10px 10px 10px;border:1px solid grey;overflow:auto}
+/*# sourceMappingURL=/fullstack_practica1/css.69d89f1a.css.map */
